@@ -37,11 +37,14 @@ RxJava_Retrofit
 	
     implementation "androidx.lifecycle:lifecycle-extensions:$lifecycle_version"
     
+    
+        // alternately - if using Java8, use the following instead of lifecycle-compiler
+    implementation "androidx.lifecycle:lifecycle-common-java8:$lifecycle_version"
 	
     
     annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version" // For Kotlin use kapt instead of annotationProcessor
-
-
+    
+  
 </code>
 
 
